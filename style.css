@@ -66,6 +66,13 @@ body{
 .contact{
     background-color: rgb(29, 29, 112);
 }
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.contact-info{
+    color: white;
+}
 .us{
     color: white;
     font-size: 30px;
@@ -74,6 +81,18 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.fa,.far{
+    padding: 25px;
+    padding-bottom: 0%;
+}
+
+.contact-info div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 0%;
+    width: 100%;
+}
 .form{
     display: flex;
     flex-direction: column;
@@ -81,11 +100,12 @@ body{
     /* border: 1px solid red; */
     margin-bottom: 5% ;
     width: 20%;
-    padding-bottom: 20px;
-    float: right;
+    margin-left: 50%;
+    /* padding-bottom: 20px; */
+    /* float: right; */
     background-color: white;
     margin-right: 10%;
-    margin-top: 0%;
+    /* margin-top: 0%; */
 }
 input{
     margin-bottom: 10%;
@@ -101,9 +121,9 @@ li{
     width: 75px;
 }
 footer{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     text-align: center;
-    background-color: rgb(29, 29, 112);
+    background-color: rgb(5, 5, 44);
     color: white;
     font-size: 15px;
     padding: 5px;
