@@ -8,10 +8,10 @@ body{
 
 }
 .main{
-    height: 55vh;
+    height: 100vh;
     background-color: rgb(33, 33, 100);
-    color: white;
-    margin-bottom: 0%;
+    color: rgb(255, 255, 255);
+    /* margin-bottom: 0.05%; */
     
 }
 #img{
@@ -61,91 +61,78 @@ body{
     width: 70%;
 }
 
-
-
-
-
-
-
-
-
-.feature{
-    /* display: flex; */
-    background-color: rgb(46, 46, 107);
-    /* margin-bottom: 10%; */
-    margin-top: 10%;
-}
-.feat{
-    font-size: 25px;
+#one{
+    /* margin-top: 2%; */
+    background-color: rgb(38, 38, 97);
     color: white;
+    width: 100%;
+}
+.feature-one{
+    /* margin-top: 0%; */
+    font-size: 25px;
+    font-weight: bolder;
     text-align: center;
+}
+.container{
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    margin-left: 30%;
+}
+.single{
+    display: flex;
+    margin-top: 5%;
+
+}
+.single p{
+    /* width: 100vw; */
+    margin-left: 20%;
+}
+.single div{
+    float: right;
+}
+.ai{
+    position: relative;
     margin-top: 5%;
 }
-
-.triangle{
-    display: flex;
-    margin-left: 15%;
-    padding: 25px;
-}
-.para-tri{
-    display: flex;
-    margin-top: 8%;
-    /* margin-bottom: 10%; */
-}
-.triangle-up {
+.triangle_up{
     width: 0px;
     height: 0px;
     border-style: inset;
-    border-width: 0 110px 173.2px 110px;
-    border-color: transparent transparent rgb(97, 94, 94) transparent;
+    border-width: 0 100px 173.2px 100px;
+    border-color: transparent transparent rgb(73, 70, 70) transparent;
     float: left;
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -o-transform: rotate(360deg);
-    color: white;
-    margin-right: 15%;
+    /* padding-left: 25px; */
 }
-.triangle-down{
+.triangle_up p{
+    text-align: center;
+    font-size: 12px;
+    top: 80px;
+    left: -47px;
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px;
+}
+.triangle_down{
     width: 0px;
     height: 0px;
     border-style: inset;
     border-width: 0 100px 173.2px 100px;
-    border-color: transparent transparent #007bff transparent;
+    border-color: transparent transparent rgb(238, 228, 228) transparent;
     float: left;
     transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(360deg);
-    margin-right: 15%;
 }
-.ai{
-    font-size: 12px;
-    font-weight: bolder;
-    
-}
-.triangle-up p  {
-    font-size: 13px;
-    justify-content: justify;
-    top: 70px;
-    left: -47px;
-    position: relative;
-    width: 95px;
-    height: 95px;
-    margin: 0px;
-}
-.triangle-down p {
-    font-size:15px ;
-    text-align: justify;
-    top: 80px;
-    left: -47px;
-    position: relative;
-    width: 95px;
-    height: 95px;
-    margin: 0px;
-}
+
 .contact{
     display: flex;
     flex-direction: column;
@@ -155,7 +142,7 @@ body{
     display: flex;
     flex-direction: column;
     /* width: 100%; */
-    background-color: rgb(238, 234, 234);
+    background-color: rgb(245, 247, 242);
     
 }
 .test{
@@ -177,7 +164,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 1px solid lightsalmon;
+    /* border: 1px solid lightsalmon; */
     padding: 10px;
     margin-right: 10px;
     width: 15%;
