@@ -110,14 +110,18 @@ body{
     /* padding-left: 25px; */
 }
 .triangle_up p{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: 12px;
-    top: 80px;
-    left: -47px;
+    font-size: 14px;
+    top: 50px;
+    left: -47px; 
     position: relative;
     width: 93px;
     height: 93px;
-    margin: 0px;
+    margin: 0px; 
+    color: fff;
+    font-weight: bolder;
 }
 .triangle_down{
     width: 0px;
@@ -131,6 +135,20 @@ body{
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(360deg);
+}
+.triangle_down p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    top: 50px;
+    left: -47px; 
+    position: relative;
+    width: 93px;
+    height: 93px;
+    margin: 0px; 
+    color: black;
+    font-weight: bolder;
 }
 
 .contact{
