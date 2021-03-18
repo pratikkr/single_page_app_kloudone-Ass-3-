@@ -164,6 +164,16 @@ body{
     -webkit-transform: rotate(180deg);
     -o-transform: rotate(360deg);
 }
+.triangle_down span{
+    display: flex;
+    flex-direction: column;
+    position: inherit;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(360deg);
+}
 
 .contact{
     display: flex;
