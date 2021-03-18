@@ -1,5 +1,4 @@
 body{
-    /* text-align: center; */
     width: 100%;
     margin: 0%;
 }
@@ -39,6 +38,7 @@ body{
 }
 .nav li{
     padding: 10px;
+    font-weight: bolder;
 }
 .btn{
     width: 125px;
@@ -130,6 +130,7 @@ body{
     margin: 0px; 
     color: fff;
     font-weight: bolder;
+    
 }
 .triangle_down{
     width: 0px;
@@ -149,7 +150,7 @@ body{
     flex-direction: column;
     text-align: center;
     font-size: 14px;
-    top: 50px;
+    top: 45px;
     left: -47px; 
     position: relative;
     width: 93px;
@@ -157,6 +158,11 @@ body{
     margin: 0px; 
     color: black;
     font-weight: bolder;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(360deg);
 }
 
 .contact{
@@ -269,6 +275,7 @@ button {
     border: none;
     outline: none;
     font-size: inherit;
+    padding: 5PX;
 }
 
 .btn-group {
